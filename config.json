@@ -1,0 +1,25 @@
+{
+  "api_selection": "openai",
+  "OPENAI_API_KEY": "your-openai-api-key-here",
+  "ANTHROPIC_API_KEY": "your-anthropic-api-key-here",
+  "file_types": [
+    ".txt",
+    ".doc",
+    ".docx",
+    ".pdf",
+    ".eml",
+    ".msg",
+    ".srt",
+    ".vtt",
+    ".xls",
+    ".xlsx",
+    ".ppt",
+    ".pptx",
+    ".rtf"
+  ],
+  "chunk_size": 1024,
+  "insight_count": 10,
+  "output_csv_name": "summary_output.csv",
+  "output_directory": "./output",
+  "log_file_name": "app_log.txt"
+}
